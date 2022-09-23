@@ -16,7 +16,7 @@ const Header = () => {
           />
 
           <a
-            href="/ghibli"
+            href="/ghiblist"
             className="text-decoration-none text-white align-bottom"
           >
             Ghiblist
