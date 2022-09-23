@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Search />}></Route>
+        <Route path="/ghibli" element={<Search />}></Route>
         <Route path="/search" element={<Search />}></Route>
         <Route path="/mylists" element={<MyLists />}></Route>
       </Routes>
