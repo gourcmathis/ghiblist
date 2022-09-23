@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Exercice React récupération, affichage et création de listes personnalisées de films du studio Ghibli [Ghiblist](https://gourcmathis.github.io/ghiblist/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Suivez ce lien pour visualiser directement le site dpuis votre navigateur: [Ghiblist](https://gourcmathis.github.io/ghiblist/).
 
 ## Available Scripts
 
