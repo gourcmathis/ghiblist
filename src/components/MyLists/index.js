@@ -96,29 +96,32 @@ const MyLists = () => {
   return (
     <div className="pt-5">
       <ToastContainer />
-      <h2 className="ps-4" style={{ color: "#dfd8d8" }}>
-        Choose a list:
-      </h2>
+      <div className="text-center">
+        <h2 className="ps-4" style={{ color: "#dfd8d8" }}>
+          Choose a list:
+        </h2>
 
-      <button
-        className="modalBtnIco w-25 mt-2 ms-4"
-        onClick={() => setOpenToWatch(!openToWatch)}
-        aria-controls="example-fade-text"
-        aria-expanded={openToWatch}
-      >
-        <FontAwesomeIcon className="pe-2" icon={faBookBookmark} />
-        To Watch
-      </button>
+        <button
+          className="modalBtnIco w-25 mt-2 ms-4"
+          onClick={() => setOpenToWatch(!openToWatch)}
+          aria-controls="example-fade-text"
+          aria-expanded={openToWatch}
+        >
+          <FontAwesomeIcon className="pe-2" icon={faBookBookmark} />
+          To Watch
+        </button>
 
-      <button
-        className="modalBtnIco w-25"
-        onClick={() => setOpenSeen(!openSeen)}
-        aria-controls="example-fade-text"
-        aria-expanded={openSeen}
-      >
-        <FontAwesomeIcon className="pe-2" icon={faEye} />
-        Already Seen
-      </button>
+        <button
+          className="modalBtnIco w-25"
+          onClick={() => setOpenSeen(!openSeen)}
+          aria-controls="example-fade-text"
+          aria-expanded={openSeen}
+        >
+          <FontAwesomeIcon className="pe-2" icon={faEye} />
+          Already Seen
+        </button>
+      </div>
+
       {openSeen && (
         <h2 style={{ color: "#dfd8d8" }} className="pt-5 ps-4">
           Already Seen
